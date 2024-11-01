@@ -1,0 +1,41 @@
+# Volleynator Web - A plugin to display volleyball results
+
+## Configuration
+The plugin needs some parameters in order to work properly. If you wish to use the plugin with tables from the DVV Bundesliga, you can use the following standard credentials:
+* Username: public
+* Password: public
+* API Key:yQXQ4mqDvlGd2eVxeeaKiWPt49euUpAArzFsbLhhazJvlZTMGwejqHEYIMfxsmoh
+For all other associations, you need to buy an API key. See https://www.volleynator.de
+
+### Username
+You need a username to use the plugin
+
+### Password
+You need a password to use the plugin
+
+### API Key
+You need an APY key to use the plugin
+
+## Usage
+Insert the shortcode [volleynator_table] into any page or post you like.
+
+### Shortcode parameters
+Below you can find a list of paramters the shortcode needs. All parameters are mandatory.
+
+#### team
+The team you wish to highlight in the table. All elements in the highlighted row get the class volleynator_team_highlight so that you can add custom styles.
+
+#### association
+The association of the league you wish to display. Available associations are:
+* DVV
+
+#### league_id
+The ID of the league. You can find a list of IDs under https://volleynator.de/page/competition-ids/
+
+#### competition_id
+The ID of the competition. You can find a list of IDs under https://volleynator.de/page/competition-ids/
+
+
+### Example usage:
+[volleynator_table team="Dresdner SC" association="DVV" competition_id="DVV-69336503_1._Bundesliga_Frauen-2018_2019_adultFemale" league_id="DVV-1._Bundesliga_Frauen-2018_2019"]
+[volleynator_matchplan team="Dresdner SC" association="DVV" competition_id="DVV-69336503_1._Bundesliga_Frauen-2018_2019_adultFemale" league_id="DVV-1._Bundesliga_Frauen-2018_2019"]
